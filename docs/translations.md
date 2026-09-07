@@ -89,6 +89,7 @@ Cloudflare custom domains handle routing and TLS directly. Registered national d
 | Lietuvių         | [lt.omarchy.org](https://lt.omarchy.org) |
 | Gaeilge          | [ga.omarchy.org](https://ga.omarchy.org) |
 | Nederlands       | [nl.omarchy.org](https://nl.omarchy.org) |
+| తెలుగు           | [te.omarchy.org](https://te.omarchy.org) |
 
 ## Pointing a new domain to a language site
 
