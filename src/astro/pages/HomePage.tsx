@@ -378,13 +378,14 @@ export function HomePage({ data }: { data: HomeData }) {
                 <span className="sr-only">Omarchy: </span>
                 {t('Beautiful, fun & agentic Linux')}
               </SectionAnchor>{' '}
-              {t('by')}{' '}
+              {language === 'te' ? '—' : t('by')}{' '}
               <a
                 href="https://dhh.dk"
                 className="underline decoration-transparent underline-offset-[6px] transition-colors duration-150 ease-out hover:decoration-brand"
               >
                 DHH
               </a>
+              {language === 'te' && <> {t('by')}.</>}
             </h1>
             <p
               data-hero-stagger
