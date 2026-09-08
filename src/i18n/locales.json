@@ -223,5 +223,13 @@
     "formatLocale": "nl-NL",
     "ogLocale": "nl_NL",
     "manual": false
+  },
+  "te": {
+    "name": "తెలుగు",
+    "domain": "https://te.omarchy.org",
+    "formatLocale": "te-IN",
+    "ogLocale": "te_IN",
+    "manual": false,
+    "flag": "IN"
   }
 }
