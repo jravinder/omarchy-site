@@ -1,0 +1,23 @@
+$ python3 /tmp/omarchy-te-230-evidence/docs/review/te-230/verify.py /tmp/omarchy-te-230
+PASS: 100 prose blocks, 22 articles, all source hashes
+
+Exit: 0
+
+$ node scripts/check-translations.mjs te --strict-site --strict-news
+Translations checked: te; 304 UI messages, 22 news articles per language.
+
+Exit: 0
+
+$ npx prettier --check src/i18n/messages/te.json src/i18n/te/blocks.json src/i18n/te/news.json src/astro/pages/HomePage.tsx src/components/SiteFooter.tsx
+Checking formatting...
+All matched files use Prettier code style!
+
+Exit: 0
+
+$ npm run lint
+
+> lint
+> eslint
+
+
+Exit: 0
