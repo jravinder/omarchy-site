@@ -226,7 +226,7 @@
   },
   "te": {
     "name": "తెలుగు",
-    "domain": "https://te.omarchy.org",
+    "domain": "https://te.omarchy.in",
     "formatLocale": "te-IN",
     "ogLocale": "te_IN",
     "manual": false,
