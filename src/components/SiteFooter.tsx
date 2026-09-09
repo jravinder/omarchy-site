@@ -91,11 +91,10 @@ export function SiteFooter({ path }: { path: string }) {
               <span className="block">
                 {t('Beautiful, fun & agentic Linux')}{' '}
                 <span className="whitespace-nowrap">
-                  {language === 'te' ? '—' : t('by')}{' '}
+                  {t('by')}{' '}
                   <a href="https://dhh.dk" className={footerLink}>
                     DHH
                   </a>
-                  {language === 'te' && <> {t('by')}.</>}
                 </span>
               </span>
               <span className="block">
